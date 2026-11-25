@@ -1,0 +1,40 @@
+FLOWCHART / PSEUDOCODE
+
+START
+  |
+  v
+Set full_name = "KYLE GABRIEL ENAD"
+  |
+  v
+Create empty unsorted_array
+  |
+  v
+For each character in full_name:
+  |
+  +--> Is it a letter AND not already in unsorted_array?
+  |       |
+  |       +--> YES: add character to unsorted_array
+  |       |
+  |       +--> NO: skip character
+  |
+  v
+Copy unsorted_array into sorted_array
+  |
+  v
+Use Bubble Sort:
+Compare adjacent letters
+  |
+  +--> Are they in the wrong alphabetical order?
+  |       |
+  |       +--> YES: swap them
+  |       |
+  |       +--> NO: continue
+  |
+  v
+Repeat passes until no swaps are made
+  |
+  v
+Display unsorted_array and sorted_array
+  |
+  v
+END
